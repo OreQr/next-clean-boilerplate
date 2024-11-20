@@ -1,3 +1,11 @@
+> [!note]
+>
+> **License**
+>
+> [This template](https://github.com/OreQr/next-clean-boilerplate) (https://github.com/OreQr/next-clean-boilerplate) is distributed under the [Unlicense](https://unlicense.org) license.
+>
+> Feel free to use this template like our own.
+
 # Next Clean Boilerplate
 
 Minimalist Next.js boilerplate with modern web development tools.
