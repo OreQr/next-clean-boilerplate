@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit",
     "format:check": "prettier --check . \"!**/*.{mjs,ts,tsx}\" --cache",
     "format:write": "prettier --write . \"!**/*.{mjs,ts,tsx}\" --cache",
-    "check": "concurrently --names lint,typecheck,format --prefix-colors yellow,blue,magenta \"pnpm:lint\" \"pnpm:typecheck\" \"pnpm:format:check\""
+    "check": "concurrently --names lint,typecheck,format --prefix-colors yellow,blue,magenta \"pnpm:lint --max-warnings=0\" \"pnpm:typecheck\" \"pnpm:format:check\""
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
