@@ -8,6 +8,8 @@
 
 # Next Clean Boilerplate
 
+[![CI](https://github.com/OreQr/next-clean-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/OreQr/next-clean-boilerplate/actions/workflows/ci.yml)
+
 Minimalist Next.js boilerplate with modern web development tools.
 
 ## Features
