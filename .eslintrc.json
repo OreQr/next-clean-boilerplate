@@ -37,13 +37,5 @@
     "tailwindcss": {
       "callees": ["cn"]
     }
-  },
-  "overrides": [
-    {
-      "files": ["tailwind.config.ts"],
-      "rules": {
-        "@typescript-eslint/no-require-imports": "off"
-      }
-    }
-  ]
+  }
 }
