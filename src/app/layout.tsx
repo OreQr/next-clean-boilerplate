@@ -1,6 +1,6 @@
-import type { Metadata } from "next"
-
 import "@/styles/globals.css"
+
+import type { Metadata } from "next"
 
 import { fontMono, fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
