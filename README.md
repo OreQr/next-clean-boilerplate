@@ -21,7 +21,7 @@ Minimalist Next.js boilerplate with modern web development tools.
 - Tailwind CSS
 - shadcn/ui
 - Configured fonts
-- ESLint
+- ESLint v9
 - Prettier
 - VS Code configuration
 - GitHub Actions CI
