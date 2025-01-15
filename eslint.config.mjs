@@ -10,6 +10,9 @@ import tailwind from "eslint-plugin-tailwindcss"
 /** @type {import("eslint").Linter.Config[]} */
 const eslintConfig = [
   {
+    ignores: [".next"],
+  },
+  {
     plugins: {
       "@next/next": nextPlugin,
     },
@@ -17,6 +20,7 @@ const eslintConfig = [
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs["core-web-vitals"].rules,
     },
+    files: ["**/*.{mjs,ts,tsx}"],
   },
 
   ...tailwind.configs["flat/recommended"],
