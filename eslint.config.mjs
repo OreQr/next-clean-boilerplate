@@ -10,9 +10,6 @@ import tailwind from "eslint-plugin-tailwindcss"
 /** @type {import("eslint").Linter.Config[]} */
 const eslintConfig = [
   {
-    ignores: [".next"],
-  },
-  {
     plugins: {
       "@next/next": nextPlugin,
     },
@@ -81,6 +78,9 @@ const eslintConfig = [
         },
       ],
     },
+  },
+  {
+    ignores: [".next"],
   },
   eslintPluginPrettierRecommended,
 ]
