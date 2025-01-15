@@ -27,7 +27,7 @@ const eslintConfig = [
   {
     settings: {
       tailwindcss: {
-        callees: ["cn"],
+        callees: ["cn", "cva"],
       },
     },
   },
