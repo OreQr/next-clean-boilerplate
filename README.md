@@ -13,12 +13,17 @@
 
 Minimalist Next.js boilerplate with modern web development tools.
 
+> [!IMPORTANT]
+>
+> [Tailwind CSS v3 version here](https://github.com/OreQr/next-clean-boilerplate/tree/tailwindcss-v3)
+> _([eslint-plugin-tailwindcss](https://www.npmjs.com/package/eslint-plugin-tailwindcss), [tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate))_
+
 ## Features
 
 - Next.js 15
 - TypeScript
 - pnpm
-- Tailwind CSS
+- Tailwind CSS v4
 - shadcn/ui
 - Configured fonts
 - ESLint v9

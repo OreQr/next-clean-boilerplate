@@ -1,6 +1,5 @@
 import { FlatCompat } from "@eslint/eslintrc"
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
-import tailwind from "eslint-plugin-tailwindcss"
 import tseslint from "typescript-eslint"
 
 const compat = new FlatCompat({
@@ -12,15 +11,6 @@ export default tseslint.config(
     ignores: [".next"],
   },
   ...compat.extends("next/core-web-vitals"),
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access -- no types
-  ...tailwind.configs["flat/recommended"],
-  {
-    settings: {
-      tailwindcss: {
-        callees: ["cn", "cva"],
-      },
-    },
-  },
   {
     files: ["**/*.{mjs,ts,tsx}"],
     extends: [
